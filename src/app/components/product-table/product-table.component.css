@@ -1,0 +1,32 @@
+.productTable 
+{
+    margin-top:5rem;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+.productTable table
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.productTable table,tr,td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+
+.productTable th{
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.productTable th, td {
+    background-color: #96D4D4;
+    font-size:1.2rem;
+  }
+

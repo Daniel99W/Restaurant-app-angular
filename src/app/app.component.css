@@ -1,0 +1,47 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.Title
+{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.navigation 
+{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2rem;
+}
+
+.navigation ul
+{
+    text-align: center;
+    list-style-type: none;
+    background-color:red;
+}
+
+.navigation ul li
+{
+    display:inline;
+    padding:1.5rem;
+}
+
+.navigation ul li a 
+{
+    text-decoration: none;
+    color:white;
+}
+
+.navigation ul li a:hover
+{
+    background-color:white;
+    color:red;
+}

@@ -1,0 +1,36 @@
+
+
+<div class="Register">
+
+    <form [formGroup]="userInput" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="text" class="form-control" placeholder="Your email" formControlName="email">
+        <small class="form-text text-muted">Nu vom impartasi emailul acesta cu nimeni</small>
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" placeholder="your password" formControlName="password">
+    </div>
+    <div class="form-group">
+        <label for="Password again">Type again the password</label>
+        <input type="password" class="form-control" placeholder="your password again" formControlName="secondPassword">
+    </div>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" placeholder="Your Name" formControlName="name">
+    </div>
+    <div class="form-group">
+        <label for="firstName" class="firstName">first Name</label>
+        <input type="text" class="form-control" placeholder="Your First Name" formControlName="firstName">
+    </div>
+
+
+    <button class="btn btn-primary" type="submit">Register</button>
+
+
+    </form>
+    
+</div>
+

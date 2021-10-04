@@ -1,0 +1,22 @@
+
+
+<div class="productTable">
+  <table>
+      <tr>
+          <th>Id</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>UserId</th>
+      </tr>
+      <tr *ngFor="let item of products;">
+          <td>{{item.id}}</td>
+          <td>{{item.productName}}</td>
+          <td>{{item.price}}</td>
+          <td>{{item.userId}}</td>
+      </tr>
+  </table>
+
+  <button (click)="OrderByName()">Order By name</button>
+
+  <button (click)="OrderByPrice()">Order By Price</button>
+</div>
